@@ -1,0 +1,5 @@
+<view style="width: 90%; margin-left:5%;">
+  <upload count="{{count}}" images="{{images}}" addedCount="{{addedCount}}" bind:chooseImage="chooseImage"
+    bind:deleteImage="deleteImage"></upload>
+</view>
+{}

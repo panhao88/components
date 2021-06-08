@@ -1,4 +1,3 @@
-<view style="width: 90%; margin-left:5%;">
-  <upload count="{{count}}" images="{{images}}" addedCount="{{addedCount}}" bind:chooseImage="chooseImage"
-    bind:deleteImage="deleteImage"></upload>
+<view class="box">
+  <button bindtap="addcart">加入购物车</button>
 </view>

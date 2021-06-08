@@ -1,0 +1,4 @@
+<view>
+  <upload count="{{count}}" images="{{images}}" addedCount="{{addedCount}}" bind:chooseImage="chooseImage"
+    bind:deleteImage="deleteImage"></upload>
+</view>

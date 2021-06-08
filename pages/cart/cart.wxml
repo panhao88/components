@@ -1,0 +1,16 @@
+<view wx:if="{{cart.length !== 0}}">
+  <view wx:for="{{cart}}" wx:key="index">
+    <view class="box">
+      <!-- 复选框 -->
+      <!-- 商品图片 -->
+      <!-- 商品信息 -->
+    </view>
+  </view>
+</view>
+<view class="noGoods" wx:else>
+  <image class="" src="../../img/cart1.gif" mode="widthFix" />
+  <view class="info">暂时没有商品</view>
+  <navigator url="../index/index" open-type="switchTab">
+    <button class="goToHome">去逛逛</button>
+  </navigator>
+</view>

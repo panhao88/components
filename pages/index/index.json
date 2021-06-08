@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "upload":"../components/upload/upload"
+    "SerachInput":"../components/SerachInput/SerachInput"
   }
 }
